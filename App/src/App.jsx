@@ -1,7 +1,7 @@
-import "/src/App.css";
-import Navbar from "/src/component/navbar";
-import Hero from "/src/component/Hero";
-import NewCollection from "/src/component/NewCollection";
+import "./App.css";
+import Navbar from "./component/navbar";
+import Hero from "./component/Hero";
+import NewCollection from "./component/NewCollection";
 
 function App() {
   return (
