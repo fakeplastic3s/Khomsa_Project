@@ -3,6 +3,7 @@ import Navbar from "../component/navbar";
 import Hero from "../component/Hero";
 import NewCollection from "../component/NewCollection";
 import Collection from "../component/Collection";
+import Location from "../component/Location";
 
 function khomsa() {
   return (
@@ -18,6 +19,7 @@ function khomsa() {
           <Hero />
           <NewCollection />
           <Collection />
+          <Location />
           <footer className="my-10 text-center text-gray-500">
             <p>&copy; 2023 SeniCrew. All rights reserved.</p>
           </footer>

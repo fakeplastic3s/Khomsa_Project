@@ -29,7 +29,12 @@ const Navbar = () => {
             Collection
           </Link>
         </li>
-        <li className="p-4">Location</li>
+        <li className="p-4">
+          {" "}
+          <Link activeClass="active" to="Location" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer">
+            Location
+          </Link>
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -57,7 +62,12 @@ const Navbar = () => {
               Collection
             </Link>
           </li>
-          <li className="p-4 ">Contact</li>
+          <li className="p-4 ">
+            {" "}
+            <Link activeClass="active" to="Location" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer">
+              Location
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

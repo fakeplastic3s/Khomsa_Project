@@ -59,6 +59,7 @@ function Collection() {
             <h6 className="text-lg font-bold tracking-tight text-gray-900 dark:text-white">$ 8,1</h6>
           </Card>
         </div>
+        <div id="Location"></div>
       </div>
     </div>
   );
