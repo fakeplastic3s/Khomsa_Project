@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <div>
-      <div className="max-w-[800px] mt[-96px] w-full h-screen text-center mx-auto flex flex-col justify-center px-24 lg:px-0">
+      <div className="max-w-[800px] mt[-96px] w-full h-full text-center mx-auto flex flex-col justify-center px-24 lg:px-0 pt-48 pb-24 " id="Hero">
         <p className="font-bold p-2 text-xl uppercase">Welcome to Khomsa_</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 text-[#607274]">Reach the pinnacle of fashion with us!</h1>
         <div className="flex">
@@ -31,7 +31,16 @@ const Hero = () => {
           </p>
         </div>
         <p className="md:text-2xl text-xl text-gray-600"> Explore the latest fashion collections and express yourself with unique flair from Khomsa_</p>
-        <button className="bg-[#607274] text-[#faf6f0] w-[200px] rounded-md font-medium my-6 mx-auto py-3 hover:scale-110 duration-300">Contact Us</button>
+
+        <a
+          href="https://wa.me/6289512832588?text=Halo%20admin%20saya%20ingin%20membeli%20produk%20dari%20Khomsa_"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#607274] text-[#faf6f0] w-[200px] rounded-md font-medium my-6 mx-auto py-3 hover:scale-110 duration-300"
+        >
+          Contact Us
+        </a>
+        <div id="New_Collection"></div>
       </div>
     </div>
   );
